@@ -54,6 +54,69 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\BaseCouponCodeInfoList.cs" />
+    <Compile Include="Collections\BaseCouponCodeInfoList.DataAccess.cs">
+      <DependentUpon>BaseCouponCodeInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseCouponCodeInfoList.Generated.cs">
+      <DependentUpon>BaseCouponCodeInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseCouponInfoList.cs" />
+    <Compile Include="Collections\BaseCouponInfoList.DataAccess.cs">
+      <DependentUpon>BaseCouponInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseCouponInfoList.Generated.cs">
+      <DependentUpon>BaseCouponInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseRechargeInfoList.cs" />
+    <Compile Include="Collections\BaseRechargeInfoList.DataAccess.cs">
+      <DependentUpon>BaseRechargeInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseRechargeInfoList.Generated.cs">
+      <DependentUpon>BaseRechargeInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchActiveInfoList.cs" />
+    <Compile Include="Collections\BaseVouchActiveInfoList.DataAccess.cs">
+      <DependentUpon>BaseVouchActiveInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchActiveInfoList.Generated.cs">
+      <DependentUpon>BaseVouchActiveInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchGroupInfoList.cs" />
+    <Compile Include="Collections\BaseVouchGroupInfoList.DataAccess.cs">
+      <DependentUpon>BaseVouchGroupInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchGroupInfoList.Generated.cs">
+      <DependentUpon>BaseVouchGroupInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchGroupUserInfoList.cs" />
+    <Compile Include="Collections\BaseVouchGroupUserInfoList.DataAccess.cs">
+      <DependentUpon>BaseVouchGroupUserInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchGroupUserInfoList.Generated.cs">
+      <DependentUpon>BaseVouchGroupUserInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchInfoList.cs" />
+    <Compile Include="Collections\BaseVouchInfoList.DataAccess.cs">
+      <DependentUpon>BaseVouchInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchInfoList.Generated.cs">
+      <DependentUpon>BaseVouchInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchPhoneInfoList.cs" />
+    <Compile Include="Collections\BaseVouchPhoneInfoList.DataAccess.cs">
+      <DependentUpon>BaseVouchPhoneInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchPhoneInfoList.Generated.cs">
+      <DependentUpon>BaseVouchPhoneInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchSessionInfoList.cs" />
+    <Compile Include="Collections\BaseVouchSessionInfoList.DataAccess.cs">
+      <DependentUpon>BaseVouchSessionInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Collections\BaseVouchSessionInfoList.Generated.cs">
+      <DependentUpon>BaseVouchSessionInfoList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Commands\ExistsCommand.cs" />
     <Compile Include="Criteria\BaseCouponCodeCriteria.cs" />
     <Compile Include="Criteria\BaseCouponCodeCriteria.Generated.cs">

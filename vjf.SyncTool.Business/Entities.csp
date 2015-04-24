@@ -63,10 +63,51 @@
       <property name="DynamicRootList" />
       <property name="EditableRootList" />
       <property name="EditableChildList" />
-      <property name="ReadOnlyList" />
+      <property name="ReadOnlyList">
+        <connectionString>$(ConnectionString1)</connectionString>
+        <providerType>SchemaExplorer.MySQLSchemaProvider,SchemaExplorer.MySQLSchemaProvider</providerType>
+        <tableList>
+      <table>
+        <owner />
+        <name>base_coupon</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_coupon_code</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_recharge</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_active</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_group</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_group_user</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_phone</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_session</name>
+      </table>
+    </tableList>
+      </property>
       <property name="ReadOnlyChildList" />
       <property name="NameValueList" />
-      <property name="Location">E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business</property>
+      <property name="Location">E:\GitHub\SyncTool\vjf.SyncTool.Business</property>
       <property name="SolutionName">vjf.SyncTool</property>
       <property name="FrameworkVersion">v40</property>
       <property name="BusinessProjectName">vjf.SyncTool.Business</property>

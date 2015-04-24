@@ -10,3 +10,15 @@ E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\Csla.xml
 E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\nunit.framework.xml
 E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.dll
 E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.pdb
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.BusinessTests.dll.config
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.BusinessTests.dll
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.BusinessTests.pdb
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\Csla.dll
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\nunit.framework.dll
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.Business.dll
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.Business.pdb
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\Csla.xml
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\nunit.framework.xml
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.csprojResolveAssemblyReference.cache
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.dll
+E:\GitHub\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.pdb

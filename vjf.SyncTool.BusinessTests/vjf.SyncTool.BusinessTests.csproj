@@ -52,6 +52,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="BaseCouponInfoListTests.cs" />
+    <Compile Include="BaseVouchActiveInfoListTests.cs" />
     <Compile Include="BaseVouchActiveInfoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

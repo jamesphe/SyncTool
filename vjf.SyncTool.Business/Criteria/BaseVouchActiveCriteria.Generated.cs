@@ -125,7 +125,7 @@ namespace vjf.SyncTool.Business
         {
             get
             {
-                return "].base_vouch_active]";
+                return "[].[base_vouch_active]";
             }
         }
 
@@ -149,7 +149,7 @@ namespace vjf.SyncTool.Business
 
             foreach (KeyValuePair<string, object> key in _bag)
             {
-                result += String.Format("{0} = '{1}' AND ", key.Key, key.Value);
+                result += String.Format("[{0}] = '{1}' AND ", key.Key, key.Value);
             }
 
             return result.Remove(result.Length - 5, 5);
