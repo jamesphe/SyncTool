@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD28611E-08B4-46DE-B431-C6B16FDC6103}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>vjf.SyncTool.Business</RootNamespace>
+    <AssemblyName>vjf.SyncTool.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Csla">
+      <HintPath>D:\CodeSmith Generator\Samples\v7.0\Templates\Frameworks\Csla\Common\Csla\4.3\Client\Csla.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.5\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\ExistsCommand.cs" />
+    <Compile Include="Criteria\BaseCouponCodeCriteria.cs" />
+    <Compile Include="Criteria\BaseCouponCodeCriteria.Generated.cs">
+      <DependentUpon>BaseCouponCodeCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseCouponCriteria.cs" />
+    <Compile Include="Criteria\BaseCouponCriteria.Generated.cs">
+      <DependentUpon>BaseCouponCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseRechargeCriteria.cs" />
+    <Compile Include="Criteria\BaseRechargeCriteria.Generated.cs">
+      <DependentUpon>BaseRechargeCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseVouchActiveCriteria.cs" />
+    <Compile Include="Criteria\BaseVouchActiveCriteria.Generated.cs">
+      <DependentUpon>BaseVouchActiveCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseVouchCriteria.cs" />
+    <Compile Include="Criteria\BaseVouchCriteria.Generated.cs">
+      <DependentUpon>BaseVouchCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseVouchGroupCriteria.cs" />
+    <Compile Include="Criteria\BaseVouchGroupCriteria.Generated.cs">
+      <DependentUpon>BaseVouchGroupCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseVouchGroupUserCriteria.cs" />
+    <Compile Include="Criteria\BaseVouchGroupUserCriteria.Generated.cs">
+      <DependentUpon>BaseVouchGroupUserCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseVouchPhoneCriteria.cs" />
+    <Compile Include="Criteria\BaseVouchPhoneCriteria.Generated.cs">
+      <DependentUpon>BaseVouchPhoneCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\BaseVouchSessionCriteria.cs" />
+    <Compile Include="Criteria\BaseVouchSessionCriteria.Generated.cs">
+      <DependentUpon>BaseVouchSessionCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criteria\Interfaces\IGeneratedCriteria.cs" />
+    <Compile Include="Entities\BaseCouponCodeInfo.cs" />
+    <Compile Include="Entities\BaseCouponCodeInfo.DataAccess.cs">
+      <DependentUpon>BaseCouponCodeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseCouponCodeInfo.Generated.cs">
+      <DependentUpon>BaseCouponCodeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseCouponInfo.cs" />
+    <Compile Include="Entities\BaseCouponInfo.DataAccess.cs">
+      <DependentUpon>BaseCouponInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseCouponInfo.Generated.cs">
+      <DependentUpon>BaseCouponInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseRechargeInfo.cs" />
+    <Compile Include="Entities\BaseRechargeInfo.DataAccess.cs">
+      <DependentUpon>BaseRechargeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseRechargeInfo.Generated.cs">
+      <DependentUpon>BaseRechargeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchActiveInfo.cs" />
+    <Compile Include="Entities\BaseVouchActiveInfo.DataAccess.cs">
+      <DependentUpon>BaseVouchActiveInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchActiveInfo.Generated.cs">
+      <DependentUpon>BaseVouchActiveInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchGroupInfo.cs" />
+    <Compile Include="Entities\BaseVouchGroupInfo.DataAccess.cs">
+      <DependentUpon>BaseVouchGroupInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchGroupInfo.Generated.cs">
+      <DependentUpon>BaseVouchGroupInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchGroupUserInfo.cs" />
+    <Compile Include="Entities\BaseVouchGroupUserInfo.DataAccess.cs">
+      <DependentUpon>BaseVouchGroupUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchGroupUserInfo.Generated.cs">
+      <DependentUpon>BaseVouchGroupUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchInfo.cs" />
+    <Compile Include="Entities\BaseVouchInfo.DataAccess.cs">
+      <DependentUpon>BaseVouchInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchInfo.Generated.cs">
+      <DependentUpon>BaseVouchInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchPhoneInfo.cs" />
+    <Compile Include="Entities\BaseVouchPhoneInfo.DataAccess.cs">
+      <DependentUpon>BaseVouchPhoneInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchPhoneInfo.Generated.cs">
+      <DependentUpon>BaseVouchPhoneInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchSessionInfo.cs" />
+    <Compile Include="Entities\BaseVouchSessionInfo.DataAccess.cs">
+      <DependentUpon>BaseVouchSessionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\BaseVouchSessionInfo.Generated.cs">
+      <DependentUpon>BaseVouchSessionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\ADOHelper.cs" />
+    <Compile Include="Utility\AsyncChildLoader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entities.csp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

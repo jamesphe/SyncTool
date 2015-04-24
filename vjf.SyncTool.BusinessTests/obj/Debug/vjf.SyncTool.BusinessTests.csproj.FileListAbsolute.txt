@@ -1,0 +1,12 @@
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.csprojResolveAssemblyReference.cache
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.BusinessTests.dll.config
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.BusinessTests.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.BusinessTests.pdb
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\Csla.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\nunit.framework.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.Business.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\vjf.SyncTool.Business.pdb
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\Csla.xml
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\bin\Debug\nunit.framework.xml
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.BusinessTests\obj\Debug\vjf.SyncTool.BusinessTests.pdb

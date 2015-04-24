@@ -1,0 +1,6 @@
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business\bin\Debug\vjf.SyncTool.Business.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business\bin\Debug\vjf.SyncTool.Business.pdb
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business\bin\Debug\Csla.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business\bin\Debug\Csla.xml
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business\obj\Debug\vjf.SyncTool.Business.dll
+E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business\obj\Debug\vjf.SyncTool.Business.pdb

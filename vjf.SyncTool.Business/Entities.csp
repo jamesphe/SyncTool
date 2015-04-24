@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<codeSmith xmlns="http://www.codesmithtools.com/schema/csp.xsd">
+  <variables>
+    <add key="ConnectionString1" value="Server=test2.exc118.com;Database=vjifen;Uid=root;Pwd=root;" />
+  </variables>
+  <propertySets>
+    <propertySet name="Entities.cs" output="Entities.cs" template="D:\CodeSmith Generator\Samples\v7.0\Templates\Frameworks\Csla\CSharp\BusinessLayer\Entities.cst">
+      <property name="SourceDatabase">
+        <connectionString>$(ConnectionString1)</connectionString>
+        <providerType>SchemaExplorer.MySQLSchemaProvider,SchemaExplorer.MySQLSchemaProvider</providerType>
+      </property>
+      <property name="IncludeViews">True</property>
+      <property name="IncludeFunctions">True</property>
+      <property name="CommandObject" />
+      <property name="DynamicRoot" />
+      <property name="EditableChild" />
+      <property name="EditableRoot" />
+      <property name="ReadOnlyChild" />
+      <property name="ReadOnlyRoot">
+        <connectionString>$(ConnectionString1)</connectionString>
+        <providerType>SchemaExplorer.MySQLSchemaProvider,SchemaExplorer.MySQLSchemaProvider</providerType>
+        <tableList>
+      <table>
+        <owner />
+        <name>base_coupon</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_coupon_code</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_recharge</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_active</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_group</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_group_user</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_phone</name>
+      </table>
+      <table>
+        <owner />
+        <name>base_vouch_session</name>
+      </table>
+    </tableList>
+      </property>
+      <property name="SwitchableObject" />
+      <property name="DynamicListBase" />
+      <property name="DynamicRootList" />
+      <property name="EditableRootList" />
+      <property name="EditableChildList" />
+      <property name="ReadOnlyList" />
+      <property name="ReadOnlyChildList" />
+      <property name="NameValueList" />
+      <property name="Location">E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.Business</property>
+      <property name="SolutionName">vjf.SyncTool</property>
+      <property name="FrameworkVersion">v40</property>
+      <property name="BusinessProjectName">vjf.SyncTool.Business</property>
+      <property name="UseMemberVariables">False</property>
+      <property name="IncludeSilverlightSupport">False</property>
+      <property name="IncludeWinRTSupport">False</property>
+      <property name="DataAccessImplementation">ParameterizedSQL</property>
+      <property name="DataProjectName">vjf.SyncTool.Data</property>
+      <property name="ParameterPrefix">@p_</property>
+      <property name="UseLazyLoading">True</property>
+      <property name="ProcedurePrefix">CSLA_</property>
+      <property name="AutoExecuteStoredProcedures">False</property>
+      <property name="IsolationLevel">ReadCommitted</property>
+      <property name="InterfaceProjectName">vjf.SyncTool.UI</property>
+      <property name="LinqToSQLContextNamespace" />
+      <property name="LinqToSQLDataContextName" />
+      <property name="CleanExpressions">
+        <stringList>
+      <string>^(sp|tbl|udf|vw)_</string>
+    </stringList>
+      </property>
+      <property name="IgnoreExpressions">
+        <stringList>
+      <string>sysdiagrams$</string>
+      <string>^dbo.aspnet</string>
+      <string>^dbo.vw_aspnet</string>
+    </stringList>
+      </property>
+      <property name="IncludeExpressions">
+        <stringList />
+      </property>
+      <property name="NamingConventions">
+        <NamingProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+      <EntityNaming>Singular</EntityNaming>
+      <PropertyNaming>Normalize</PropertyNaming>
+      <AssociationNaming>Plural</AssociationNaming>
+    </NamingProperty>
+      </property>
+      <property name="IncludeAssociations">True</property>
+    </propertySet>
+  </propertySets>
+</codeSmith>

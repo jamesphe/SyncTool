@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codeSmith xmlns="http://www.codesmithtools.com/schema/csp.xsd">
+  <propertySets>
+    <propertySet name="Default.txt" output="Default.txt" template="D:\CodeSmith Generator\Samples\v7.0\Templates\Frameworks\Csla\CSharp\WebLayer\Default.aspx.cst">
+      <property name="Language">CSharp</property>
+      <property name="Location">E:\VjfSvn\Promotion\SyncTool\vjf.SyncTool.UI</property>
+      <property name="BusinessProjectName">vjf.SyncTool.Business</property>
+      <property name="InterfaceProjectName">vjf.SyncTool.UI</property>
+      <property name="CleanExpressions">
+        <stringList>
+      <string>^(sp|tbl|udf|vw)_</string>
+    </stringList>
+      </property>
+      <property name="IgnoreExpressions">
+        <stringList>
+      <string>sysdiagrams$</string>
+      <string>^dbo.aspnet</string>
+      <string>^dbo.vw_aspnet</string>
+    </stringList>
+      </property>
+      <property name="IncludeExpressions">
+        <stringList />
+      </property>
+      <property name="NamingConventions">
+        <NamingProperty xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="">
+      <EntityNaming>Singular</EntityNaming>
+      <PropertyNaming>Normalize</PropertyNaming>
+      <AssociationNaming>Plural</AssociationNaming>
+    </NamingProperty>
+      </property>
+      <property name="IncludeAssociations">True</property>
+    </propertySet>
+  </propertySets>
+</codeSmith>
